@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(35, 36, 36);
+}
+.containerx{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content{
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(51, 51, 50);
+    border-radius: 6px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    background-color: rgb(207, 200, 186);
+    border-radius: 6px;
+}
+header a{
+    text-decoration: none;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+header .logo h3{
+    padding: 3px 0;
+    border-bottom: 2px dashed rgb(41, 45, 47);
+}
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.form{
+    color: white;
+    padding: 20px 15px;
+    background-color: rgb(207, 200, 186);
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 20px;
+}
+.form h4{
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+textarea,
+button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: azure;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.errs{
+    color: rgb(101, 18, 18);
+    margin-top: 10px;
+    text-decoration: underline;
+}
+@media (max-width: 767px) {
+    header img{
+        width: 40px;
+        height: 40px;
+    }
+    .content{
+        width: 100%;
+    }
+    .containerx {
+        padding: 30px;
+    }
+    header h3{
+        font-size: 17px;
+    }
+}
+button:hover,
+textarea:valid{
+    background-color: rgb(101, 152, 203);
+}
+.svg{
+    color: rgb(54, 99, 107);
+    margin-left: 3px;
+}
